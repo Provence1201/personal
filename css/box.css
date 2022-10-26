@@ -1,0 +1,121 @@
+#introduce{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	width: 600px;
+	height: 250px;
+	border: 10px solid #333;
+	background-color: white;
+
+	z-index: 2;
+
+	display: none;
+}
+
+#interest{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	width: 600px;
+	height: 250px;
+	border: 10px solid #333;
+	background-color: white;
+
+	z-index: 2;
+
+	display: none;
+}
+
+#ucan{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	width: 680px;
+	height: 500px;
+	border: 10px solid #333;
+	background-color: white;
+
+	z-index: 2;
+
+	display: none;
+}
+
+.pic2{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+	height: auto;
+}
+
+#job{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	width: 700px;
+	height: 500px;
+	border: 10px solid #333;
+	background-color: white;
+
+	z-index: 2;
+
+	display: none;
+}
+
+.txt{
+	position: absolute;
+	top: 86%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	width: 600px;
+	height: 90px;
+	border: 10px solid #333;
+	background-color: white;
+
+	z-index: 4;
+}
+
+.pic1{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+	height: auto;
+}
+
+.cancel{
+	position: absolute;
+	top: 10%;
+	left: 95%;
+	transform: translate(-50%,-50%);
+
+	width: 20px;
+	height: 20px;
+	border: 1px solid #333;
+	background-color: black;
+
+	z-index: 2;
+}
+
+#cancel{
+	width: 20px;
+	height: 20px;
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>顏聖凱的個人網頁</title>
+	<link rel="stylesheet" href="css/video.css">
+	<link rel="stylesheet" href="css/click.css">
+	<link rel="stylesheet" href="css/personal.css">
+	<link rel="stylesheet" href="css/box.css">
+	
+</head>
+<body>
+
+	<div class="person">
+		<h1><center>顏聖凱的個人網頁</center></h1>
+		<h2><center>資訊管理導論作業</center></h2>
+
+		<div class="click">
+			<button class="introduce" onclick="show1()">介紹</botton>
+			<button class="interest" onclick="show2()">興趣</botton>
+			<button class="ucan" onclick="show3()">UCAN</botton>
+			<button class="job" onclick="show4()">職業</botton>
+		</div>
+	</div>
+
+	<div id="introduce"> 
+		<p><dd><font size="6">介紹</font></p></br>
+		<h3>我來自台中豐原，今年20歲，這是我製作的第一個個人網頁</h3>
+		<h3>我的座右銘是:<font color="red">"即使當下事與願違，請你堅信，你依然能勝天半子"</font></h3>
+		<div class="cancel">
+			<button id="cancel" onclick="noshow1()">
+		</div>
+	</div>
+
+	<div id="interest"> 
+		<p><dd><font size="6">興趣</font></p></br>
+		<h3>我的興趣是彈吉他、唱歌、打撞球、打飛鏢以及學習程式語言。</h3>
+		<div class="cancel">
+			<button id="cancel" onclick="noshow2()">
+		</div>
+	</div>
+
+	<div id="ucan">
+		<p><dd><font size="6">UCAN</font></p></br>
+		<img class="pic2" src="ucan.png"></br>
+		<div class="txt">
+			<h3>這是我的職業興趣分析，偏向企業型與事業型，</h3>
+			<h3>也比較符合我興趣的職業分析</h3>
+		</div>
+
+		<div class="cancel">
+			<button id="cancel" onclick="noshow3()">
+		</div>
+	</div>
+
+	<div id="job"> 
+		<p><dd><font size="6">職業</font></p></br>
+		<img class="pic1" src="job.png"></br>
+		<div class="txt">
+			<h3>這個是有關前端網頁程式設計的工作內容，透過這次的作業，</h3>
+			<h3>我對於HTML的程式語言感到有點興趣，是會想要深入學習的。</h3>
+		</div>
+
+		<div class="cancel">
+			<button id="cancel" onclick="noshow4()">
+		</div>
+	</div>
+
+	<video class="video-back" autoplay loop muted>
+		<source src="background.mp4">
+	</video>
+
+	<script>
+		function show1(){introduce.style.display="block"}
+		function noshow1(){introduce.style.display="none"}
+
+		function show2(){interest.style.display="block"}
+		function noshow2(){interest.style.display="none"}
+
+		function show3(){ucan.style.display="block"}
+		function noshow3(){ucan.style.display="none"}
+
+		function show4(){job.style.display="block"}
+		function noshow4(){job.style.display="none"}
+	</script>
+
+
+</body>
+</html>

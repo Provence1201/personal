@@ -1,0 +1,23 @@
+.person{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	width: 600px;
+	/*height: 120px;*/
+	/*border: 1px solid #333;*/
+
+	z-index: 1;
+
+	display: block;
+}
+
+h1{
+	font-size: 50px;
+	color: black;
+}
+
+h2{
+
+}
